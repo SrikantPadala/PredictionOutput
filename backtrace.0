@@ -1,31 +1,43 @@
 Pointers
 ------------
-0x576a80
-0x5d1b3a
-0x5d516a
-0x578e23
-0x57752a
-0x7f6cf0bc5b50
-0x7f6cedf1030d
+0x598c31
+0x507ed7
+0x4e238f
+0x525976
+0x525af5
+0x525c99
+0x55a037
+0x566d56
+0x5a45d8
+0x5a0bb1
+0x62d16e
 Raw
 ------------
-/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_Z18__print_back_tracev+0x80) [0x576a80]
-/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base() [0x5d1b3a]
-/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_ZN8graphlab7dc_impl11dc_tcp_comm14accept_handlerEv+0x68a) [0x5d516a]
-/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_ZNK5boost9function0IvEclEv+0x33) [0x578e23]
-/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_ZN8graphlab6thread6invokeEPv+0x1a) [0x57752a]
-/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50) [0x7f6cf0bc5b50]
-/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f6cedf1030d]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_Z18__print_back_tracev+0x81) [0x598c31]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab18serialize_iteratorINS_8oarchiveESt23_Rb_tree_const_iteratorIiEEEvRT_T0_S6_m+0x177) [0x507ed7]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring() [0x4e238f]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab7dc_impl21object_request_issue3INS_23async_consistent_engineI14graph_coloringEEMS4_FvmRS3_RK16vertex_data_typeEmS3_S6_E4execEPNS0_19dc_dist_object_baseEPNS0_7dc_sendEmhtmSA_RKmRKS3_S8_+0x116) [0x525976]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab14dc_dist_objectINS_23async_consistent_engineI14graph_coloringEEE21custom_remote_requestIMS3_FvmRS2_RK16vertex_data_typeEmS2_S7_EEvtmhT_T0_T1_T2_+0xc5) [0x525af5]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab27object_fiber_remote_requestINS_14dc_dist_objectINS_23async_consistent_engineI14graph_coloringEEEEMS4_FvmRS3_RK16vertex_data_typeEmS3_S7_EENS_14request_futureIN5boost12remove_constINSD_16remove_referenceINSD_8functionINSD_21remove_member_pointerIT0_E4typeEE11result_typeEE4typeEE4typeEEERT_tSI_T1_T2_T3_+0xb9) [0x525c99]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab23async_consistent_engineI14graph_coloringE15eval_sched_taskEmRKNS_5emptyE+0x7f7) [0x55a037]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab23async_consistent_engineI14graph_coloringE12thread_startEm+0x3e6) [0x566d56]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab11fiber_group6invokeERKN5boost8functionIFvvEEEPS0_+0x28) [0x5a45d8]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab13fiber_control10trampolineEl+0x41) [0x5a0bb1]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(make_fcontext+0x2e) [0x62d16e]
 
 Demangled
 ------------
 __print_back_trace()
-/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base()
-graphlab::dc_impl::dc_tcp_comm::accept_handler()
-boost::function0<void>::operator()() const
-graphlab::thread::invoke(void*)
-/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50)
-/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)
+void graphlab::serialize_iterator<graphlab::oarchive, std::_Rb_tree_const_iterator<int> >(graphlab::oarchive&, std::_Rb_tree_const_iterator<int>, std::_Rb_tree_const_iterator<int>, unsigned long)
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring()
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab7dc_impl21object_req
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab14dc_dist_objectINS_
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(_ZN8graphlab27object_fiber_remot
+graphlab::async_consistent_engine<graph_coloring>::eval_sched_task(unsigned long, graphlab::empty const&)
+graphlab::async_consistent_engine<graph_coloring>::thread_start(unsigned long)
+graphlab::fiber_group::invoke(boost::function<void ()> const&, graphlab::fiber_group*)
+graphlab::fiber_control::trampoline(long)
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/saturation_ordered_coloring(make_fcontext+0x2e)
 -------------------------------------------------------
 
 

@@ -16465,3 +16465,2220 @@ hadoopnew@ylab5:~/output$
 hadoopnew@ylab5:~/output$ 
 hadoopnew@ylab5:~/output$ exit
 exit
+hadoopnew@ylab5:~/output$ ./runProgram.h [K[Ksh 14 2 undirected_triangle_count1 orkut  [K&
+[1] 3541
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ps [K -eaf
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 13:13 ?        00:00:00 init [2]  
+root         2     0  0 13:13 ?        00:00:00 [kthreadd]
+root         3     2  0 13:13 ?        00:00:00 [migration/0]
+root         4     2  0 13:13 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 13:13 ?        00:00:00 [watchdog/0]
+root         6     2  0 13:13 ?        00:00:00 [migration/1]
+root         7     2  0 13:13 ?        00:00:00 [ksoftirqd/1]
+root         8     2  0 13:13 ?        00:00:00 [watchdog/1]
+root         9     2  0 13:13 ?        00:00:00 [migration/2]
+root        10     2  0 13:13 ?        00:00:00 [ksoftirqd/2]
+root        11     2  0 13:13 ?        00:00:00 [watchdog/2]
+root        12     2  0 13:13 ?        00:00:00 [migration/3]
+root        13     2  0 13:13 ?        00:00:00 [ksoftirqd/3]
+root        14     2  0 13:13 ?        00:00:00 [watchdog/3]
+root        15     2  0 13:13 ?        00:00:00 [events/0]
+root        16     2  0 13:13 ?        00:00:00 [events/1]
+root        17     2  0 13:13 ?        00:00:00 [events/2]
+root        18     2  0 13:13 ?        00:00:00 [events/3]
+root        19     2  0 13:13 ?        00:00:00 [cpuset]
+root        20     2  0 13:13 ?        00:00:00 [khelper]
+root        21     2  0 13:13 ?        00:00:00 [netns]
+root        22     2  0 13:13 ?        00:00:00 [async/mgr]
+root        23     2  0 13:13 ?        00:00:00 [pm]
+root        24     2  0 13:13 ?        00:00:00 [sync_supers]
+root        25     2  0 13:13 ?        00:00:00 [bdi-default]
+root        26     2  0 13:13 ?        00:00:00 [kintegrityd/0]
+root        27     2  0 13:13 ?        00:00:00 [kintegrityd/1]
+root        28     2  0 13:13 ?        00:00:00 [kintegrityd/2]
+root        29     2  0 13:13 ?        00:00:00 [kintegrityd/3]
+root        30     2  0 13:13 ?        00:00:00 [kblockd/0]
+root        31     2  0 13:13 ?        00:00:00 [kblockd/1]
+root        32     2  0 13:13 ?        00:00:00 [kblockd/2]
+root        33     2  0 13:13 ?        00:00:00 [kblockd/3]
+root        34     2  0 13:13 ?        00:00:00 [kacpid]
+root        35     2  0 13:13 ?        00:00:00 [kacpi_notify]
+root        36     2  0 13:13 ?        00:00:00 [kacpi_hotplug]
+root        37     2  0 13:13 ?        00:00:00 [kseriod]
+root        38     2  0 13:13 ?        00:00:00 [kondemand/0]
+root        39     2  0 13:13 ?        00:00:00 [kondemand/1]
+root        40     2  0 13:13 ?        00:00:00 [kondemand/2]
+root        41     2  0 13:13 ?        00:00:00 [kondemand/3]
+root        72     2  0 13:13 ?        00:00:00 [khungtaskd]
+root        73     2  0 13:13 ?        00:00:00 [kswapd0]
+root        74     2  0 13:13 ?        00:00:00 [kswapd1]
+root        75     2  0 13:13 ?        00:00:00 [ksmd]
+root        76     2  0 13:13 ?        00:00:00 [aio/0]
+root        77     2  0 13:13 ?        00:00:00 [aio/1]
+root        78     2  0 13:13 ?        00:00:00 [aio/2]
+root        79     2  0 13:13 ?        00:00:00 [aio/3]
+root        80     2  0 13:13 ?        00:00:00 [crypto/0]
+root        81     2  0 13:13 ?        00:00:00 [crypto/1]
+root        82     2  0 13:13 ?        00:00:00 [crypto/2]
+root        83     2  0 13:13 ?        00:00:00 [crypto/3]
+root       244     2  0 13:13 ?        00:00:00 [ata/0]
+root       245     2  0 13:13 ?        00:00:00 [ata/1]
+root       246     2  0 13:13 ?        00:00:00 [ata/2]
+root       247     2  0 13:13 ?        00:00:00 [ata/3]
+root       248     2  0 13:13 ?        00:00:00 [ata_aux]
+root       249     2  0 13:13 ?        00:00:00 [ksuspend_usbd]
+root       250     2  0 13:13 ?        00:00:00 [khubd]
+root       252     2  0 13:13 ?        00:00:00 [scsi_eh_0]
+root       253     2  0 13:13 ?        00:00:00 [scsi_eh_1]
+root       259     2  0 13:13 ?        00:00:00 [scsi_eh_2]
+root       260     2  0 13:13 ?        00:00:00 [scsi_eh_3]
+root       292     2  0 13:13 ?        00:00:00 [jbd2/sda1-8]
+root       293     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root       294     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root       295     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root       296     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root       437     1  0 13:13 ?        00:00:00 udevd --daemon
+root       562   437  0 13:13 ?        00:00:00 udevd --daemon
+root       563   437  0 13:13 ?        00:00:00 udevd --daemon
+root       643     2  0 13:13 ?        00:00:00 [edac-poller]
+root       646     2  0 13:13 ?        00:00:00 [kpsmoused]
+root       662     2  0 13:13 ?        00:00:00 [flush-8:0]
+root       665     2  0 13:13 ?        00:00:00 [nouveau/0]
+root       666     2  0 13:13 ?        00:00:00 [nouveau/1]
+root       667     2  0 13:13 ?        00:00:00 [nouveau/2]
+root       668     2  0 13:13 ?        00:00:00 [nouveau/3]
+root       677     2  0 13:13 ?        00:00:00 [ttm_swap]
+root      1615     2  0 13:13 ?        00:00:00 [jbd2/sda2-8]
+root      1616     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root      1617     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root      1618     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root      1619     2  0 13:13 ?        00:00:00 [ext4-dio-unwrit]
+root      1900     1  0 13:13 ?        00:00:00 /sbin/rpcbind -w
+statd     1965     1  0 13:13 ?        00:00:00 /sbin/rpc.statd
+root      1970     2  0 13:13 ?        00:00:00 [rpciod/0]
+root      1971     2  0 13:13 ?        00:00:00 [rpciod/1]
+root      1972     2  0 13:13 ?        00:00:00 [rpciod/2]
+root      1973     2  0 13:13 ?        00:00:00 [rpciod/3]
+root      1975     2  0 13:13 ?        00:00:00 [kslowd000]
+root      1976     2  0 13:13 ?        00:00:00 [kslowd001]
+root      1977     2  0 13:13 ?        00:00:00 [nfsiod]
+root      1984     1  0 13:13 ?        00:00:00 /usr/sbin/rpc.idmapd
+root      2282     1  0 13:13 ?        00:00:00 /usr/sbin/rsyslogd -c5
+root      2335     2  0 13:13 ?        00:00:00 [flush-7:0]
+root      2336     2  0 13:13 ?        00:00:00 [flush-7:1]
+root      2337     2  0 13:13 ?        00:00:00 [flush-7:2]
+root      2338     2  0 13:13 ?        00:00:00 [flush-7:3]
+root      2339     2  0 13:13 ?        00:00:00 [flush-7:4]
+root      2340     2  0 13:13 ?        00:00:00 [flush-7:5]
+root      2341     2  0 13:13 ?        00:00:00 [flush-7:6]
+root      2342     2  0 13:13 ?        00:00:00 [flush-7:7]
+daemon    2353     1  0 13:13 ?        00:00:00 /usr/sbin/atd
+root      2413     1  0 13:13 ?        00:00:00 /usr/sbin/acpid
+104       2439     1  0 13:13 ?        00:00:00 /usr/bin/dbus-daemon --system
+root      2465     1  0 13:13 ?        00:00:00 /usr/sbin/cron
+root      2490     1  0 13:13 ?        00:00:00 /usr/sbin/sshd
+root      2526     1  0 13:13 ?        00:00:00 /bin/sh /usr/bin/mysqld_safe
+mysql     2853  2526  0 13:13 ?        00:00:00 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/mysql/plugin --user=mysql --pid-file=/var/run/mysqld/mysqld.pid --socket=/var
+root      2854  2526  0 13:13 ?        00:00:00 logger -t mysqld -p daemon.error
+root      3269     1  0 13:13 ?        00:00:00 /usr/sbin/exim4 -bd -q30m
+root      3295  2490  0 13:13 ?        00:00:00 sshd: hadoopnew [priv]
+root      3298     1  0 13:13 ?        00:00:00 /usr/sbin/console-kit-daemon --no-daemon
+ntp       3301     1  0 13:13 ?        00:00:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 105:108
+root      3391     1  0 13:13 tty1     00:00:00 /sbin/getty 38400 tty1
+root      3392     1  0 13:13 tty2     00:00:00 /sbin/getty 38400 tty2
+root      3393     1  0 13:13 tty3     00:00:00 /sbin/getty 38400 tty3
+root      3394     1  0 13:13 tty4     00:00:00 /sbin/getty 38400 tty4
+root      3395     1  0 13:13 tty5     00:00:00 /sbin/getty 38400 tty5
+root      3396     1  0 13:13 tty6     00:00:00 /sbin/getty 38400 tty6
+root      3399     1  0 13:13 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+1000      3405  3295  0 13:13 ?        00:00:00 sshd: hadoopnew@pts/0
+1000      3406  3405  0 13:13 pts/0    00:00:00 -bash
+1000      3446     1  0 13:13 pts/0    00:00:00 ./cpu_mem
+root      3449  2490  0 13:14 ?        00:00:00 sshd: hadoopnew [priv]
+1000      3454  3449  0 13:14 ?        00:00:00 sshd: hadoopnew@pts/1
+1000      3455  3454  0 13:14 pts/1    00:00:00 -bash
+1000      3510  3455  0 13:15 pts/1    00:00:00 screen -L
+1000      3511  3510  0 13:15 ?        00:00:00 SCREEN -L
+1000      3512  3511  0 13:15 pts/2    00:00:00 /bin/bash
+1000      3541  3512  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3546  3541  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3548  3546  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3549  3546  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3551  3549  0 13:16 pts/2    00:00:00 mpiexec -n 14 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1 --graph /hom
+1000      3579  3551  6 13:16 pts/2    00:00:00 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1 --graph /home/hadoopnew/GraphDatabases/orkut/ --format=tsv --g
+1000      3615  3512  0 13:16 pts/2    00:00:00 ps -eaf
+hadoopnew@ylab5:~/output$ ps -af
+UID        PID  PPID  C STIME TTY          TIME CMD
+1000      3446     1  0 13:13 pts/0    00:00:00 ./cpu_mem
+1000      3510  3455  0 13:15 pts/1    00:00:00 screen -L
+1000      3541  3512  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3546  3541  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3548  3546  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3549  3546  0 13:16 pts/2    00:00:00 /bin/bash
+1000      3551  3549  0 13:16 pts/2    00:00:00 mpiexec -n 14 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1 --graph /hom
+1000      3579  3551 50 13:16 pts/2    00:00:03 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1 --graph /home/hadoopnew/GraphDatabases/orkut/ --format=tsv --g
+1000      3675  3548  0 13:16 pts/2    00:00:00 /home/hadoopnew/output/cpu_mem_client
+1000      3690  3512  0 13:16 pts/2    00:00:00 ps -af
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	0m43.192s
+user	0m16.973s
+sys	0m19.121s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  3548 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m39.844s
+user	0m17.009s
+sys	0m19.681s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4173 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m39.226s
+user	0m17.857s
+sys	0m19.753s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4711 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m38.860s
+user	0m19.385s
+sys	0m20.269s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  5293 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m44.415s
+user	0m33.214s
+sys	0m43.583s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  5874 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m43.475s
+user	0m34.826s
+sys	0m42.415s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  6574 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m43.474s
+user	0m35.206s
+sys	0m43.159s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  7258 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m44.970s
+user	0m37.242s
+sys	0m43.187s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  7911 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m45.742s
+user	0m36.546s
+sys	0m45.051s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  8608 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m8.592s
+user	0m43.639s
+sys	1m1.260s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  9334 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m10.846s
+user	0m48.687s
+sys	1m0.044s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 10389 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m19.319s
+user	1m4.788s
+sys	1m23.365s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11488 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m51.369s
+user	1m28.010s
+sys	2m3.900s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12691 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+[Khadoopnew@ylab5:~/output$ 
+[1]+  Done                    ./runProgram.sh 14 2 undirected_triangle_count1 orkut
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd uni[Kdirected_triangle_count1/
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls
+[0m[01;34menwiki0585[0m  [01;34menwiki1222[0m     [01;34mhollywood0517[0m  [01;34mhollywood1043[0m  [01;34mhollywood1578[0m  [01;34mhollywood2141[0m  [01;34mhollywood2705[0m  [01;34morkut[0m               [01;34msoclivejournal0637[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m     [01;34mhollywood0622[0m  [01;34mhollywood1149[0m  [01;34mhollywood1692[0m  [01;34mhollywood2254[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0265[0m  [01;34msoclivejournal0736[0m
+[01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0727[0m  [01;34mhollywood1254[0m  [01;34mhollywood1803[0m  [01;34mhollywood2367[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0836[0m
+[01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0838[0m  [01;34mhollywood1360[0m  [01;34mhollywood1916[0m  [01;34mhollywood2479[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood0938[0m  [01;34mhollywood1465[0m  [01;34mhollywood2028[0m  [01;34mhollywood2592[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki1222[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0585[0m  [01;34menwiki1329[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m       [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+[01;34menwiki0691[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ [Khadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ [4P(reverse-i-search)`':[Cf': ps -afo': for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 8 2 $prog soclivejournal; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[1@hadoopnew@ylab5:~/output$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@ [1@e[1@n[1@w[1@i[1@k[1@i[C[C[C[C[C[C[C[C[C[C[1P[1@1[1@4[C[C[1P[1@2[1P[1@1
+[1] 14498
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ls
+real	1m6.804s
+user	1m7.060s
+sys	0m21.829s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14506 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m2.651s
+user	1m6.028s
+sys	0m19.985s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15510 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m58.647s
+user	1m6.720s
+sys	0m17.525s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 16393 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m58.259s
+user	1m4.868s
+sys	0m17.949s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17260 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m58.474s
+user	1m2.776s
+sys	0m20.157s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18171 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m58.279s
+user	1m7.064s
+sys	0m16.981s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19081 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m0.858s
+user	1m10.536s
+sys	0m16.761s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19990 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m5.452s
+user	1m26.529s
+sys	0m32.162s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20943 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m10.863s
+user	1m32.954s
+sys	0m32.826s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21955 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m14.315s
+user	1m43.250s
+sys	0m30.106s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23041 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m22.127s
+user	1m54.975s
+sys	0m31.682s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 24186 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m51.599s
+user	2m19.489s
+sys	0m45.111s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 25450 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m11.764s
+user	3m1.683s
+sys	0m55.775s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 27148 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+backtrace.0          [0m[01;32mcpu_mem_client_15[0m        [01;34mkcore[0m                [01;32mrunProgram.sh[0m    [01;34msimple_undirected_triangle_count[0m  [01;34mTSC[0m
+[01;34mconnected_component[0m  [01;32mcpu_mem_client_8[0m         [01;34mpagerank[0m             [01;32mrunStatus.sh[0m     [01;34msssp[0m                              [01;34mundirected_triangle_count[0m
+[01;32mcpu_mem_client[0m       cpu_mem_client.cpp       [01;32mrunJob.sh[0m            screenlog.0      [01;32mstats.sh[0m                          [01;34mundirected_triangle_count1[0m
+[01;32mcpu_mem_client_14[0m    [01;34mdirected_triangle_count[0m  [01;32mrunProgramNnodes.sh[0m  [01;34msimple_coloring[0m  [01;32mstats.sh~[0m
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ps -af
+UID        PID  PPID  C STIME TTY          TIME CMD
+1000      9171  3512  0 15:18 pts/2    00:00:00 ps -af
+1000      9172 29145  0 15:18 pts/2    00:00:00 /home/hadoopnew/output/cpu_mem_client
+1000     14432 14393  0 14:43 pts/1    00:00:00 screen -r
+1000     14498  3512  0 14:46 pts/2    00:00:00 /bin/bash
+1000     14499 14498  0 14:46 pts/2    00:00:00 /bin/bash
+1000     29143 14499  0 15:02 pts/2    00:00:00 /bin/bash
+1000     29145 29143  0 15:02 pts/2    00:00:00 /bin/bash
+1000     29146 29143  0 15:02 pts/2    00:00:00 /bin/bash
+1000     29148 29146  0 15:02 pts/2    00:00:00 mpiexec -n 1 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkit
+1000     29163 29148 32 15:02 pts/2    00:05:04 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring --graph /home/h
+hadoopnew@ylab5:~/output$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       3889         77          0          0          4
+-/+ buffers/cache:       3884         82
+Swap:         7730       2504       5226
+hadoopnew@ylab5:~/output$ 
+real	17m26.082s
+user	4m15.932s
+sys	2m5.240s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 29145 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m30.381s
+user	0m9.061s
+sys	0m12.993s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 10696 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m27.050s
+user	0m9.445s
+sys	0m13.481s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11190 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m26.806s
+user	0m10.025s
+sys	0m13.013s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11638 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m26.243s
+user	0m10.397s
+sys	0m13.417s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12040 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m25.599s
+user	0m10.545s
+sys	0m12.973s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12471 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.599s
+user	0m11.105s
+sys	0m13.285s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12856 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.999s
+user	0m11.741s
+sys	0m13.917s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 13255 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m29.851s
+user	0m21.845s
+sys	0m30.202s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 13668 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m30.472s
+user	0m22.753s
+sys	0m30.538s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14155 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m31.053s
+user	0m25.026s
+sys	0m29.278s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14650 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m31.916s
+user	0m25.630s
+sys	0m30.114s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15105 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m48.736s
+user	0m31.438s
+sys	0m41.223s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15619 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m54.439s
+user	0m41.523s
+sys	1m0.136s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 16372 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+free -m[1Pps -af[4Plsfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plscd simple_coloring/..[K[3Plscd undirected_triangle_count1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -af[Keaf[1Pafcd undirected_triangle_count1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..simple_coloring/ls[Kcd ..for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kps -affree -m[K
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	1m36.041s
+user	1m11.584s
+sys	1m53.687s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17214 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    for prog in {"simple_coloring","undirected_triangle_count1"};
+do
+    ./runProgram.sh 14 1 $prog enwiki;
+done
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ d[Kcd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki1115[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m       [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki[0m      [01;34menwiki1222[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0585[0m  [01;34menwiki1329[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m       [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+[01;34menwiki0691[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+hadoopnew@ylab5:~/output/simple_coloring$ mv enwiki enwiki797
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ cd ..u[K/undirected_triangle_count1
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ../undirected_triangle_count1[13Pmv enwiki enwiki797
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd ..mv enwiki enwiki797cd ../undirected_triangle_count1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pmv enwiki enwiki797ls[Kcd simple_coloring/[12Pfree -m[1Pps -af[4Plsfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &
+[1] 18699
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ls simple_coloring/
+[0m[01;34mcitpatent[0m   [01;34menwiki1115[0m     [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki[0m      [01;34menwiki1222[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1329[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1404[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+[01;34menwiki0903[0m  [01;34menwiki797[0m      [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m         [01;34msoclivejournal0736[0m
+[01;34menwiki1009[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m          [01;34msoclivejournal0836[0m
+hadoopnew@ylab5:~/output$ mv e[K[K[K[Kcd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ mv enwiki797/ enwiki0797
+hadoopnew@ylab5:~/output/simple_coloring$ cd ../undirected_triangle_count1
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ../undirected_triangle_count1[8Pmv enwiki797/ enwiki0797
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls
+[0m[01;34menwiki0585[0m  [01;34menwiki1115[0m     [01;34mhollywood0411[0m  [01;34mhollywood0938[0m  [01;34mhollywood1465[0m  [01;34mhollywood2028[0m  [01;34mhollywood2592[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0539[0m
+[01;34menwiki0691[0m  [01;34menwiki1222[0m     [01;34mhollywood0517[0m  [01;34mhollywood1043[0m  [01;34mhollywood1578[0m  [01;34mhollywood2141[0m  [01;34mhollywood2705[0m  [01;34morkut[0m               [01;34msoclivejournal0637[0m
+[01;34menwiki0797[0m  [01;34menwiki1329[0m     [01;34mhollywood0622[0m  [01;34mhollywood1149[0m  [01;34mhollywood1692[0m  [01;34mhollywood2254[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0265[0m  [01;34msoclivejournal0736[0m
+[01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0727[0m  [01;34mhollywood1254[0m  [01;34mhollywood1803[0m  [01;34mhollywood2367[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0836[0m
+[01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0838[0m  [01;34mhollywood1360[0m  [01;34mhollywood1916[0m  [01;34mhollywood2479[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal0936[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+real	0m50.956s
+user	0m46.871s
+sys	0m18.189s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18707 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m49.026s
+user	0m46.155s
+sys	0m19.137s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19471 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m48.171s
+user	0m45.579s
+sys	0m19.285s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20234 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m46.378s
+user	0m45.095s
+sys	0m16.913s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20996 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m45.175s
+user	0m43.899s
+sys	0m16.285s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21667 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m45.379s
+user	0m45.971s
+sys	0m15.669s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 22382 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m46.989s
+user	0m48.519s
+sys	0m19.185s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23096 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m47.992s
+user	0m50.887s
+sys	0m17.221s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23794 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m50.785s
+user	0m57.324s
+sys	0m16.237s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 24551 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m54.202s
+user	1m3.796s
+sys	0m14.917s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 25352 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m2.432s
+user	1m24.365s
+sys	0m28.610s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 26182 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m12.043s
+user	1m36.390s
+sys	0m31.462s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 27161 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m38.131s
+user	2m1.092s
+sys	0m40.887s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 28259 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m11.835s
+user	2m32.402s
+sys	1m4.804s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 29761 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m26.768s
+user	0m7.612s
+sys	0m12.773s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 31759 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m26.752s
+user	0m7.112s
+sys	0m12.617s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 32208 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m25.137s
+user	0m7.312s
+sys	0m12.721s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 32656 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.556s
+user	0m8.041s
+sys	0m12.845s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:   609 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m23.952s
+user	0m8.021s
+sys	0m12.729s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1017 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m22.958s
+user	0m8.869s
+sys	0m13.169s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1417 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m22.541s
+user	0m8.705s
+sys	0m12.745s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1806 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+real	0m22.921s
+user	0m9.169s
+sys	0m12.893s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2186 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m23.112s
+user	0m10.409s
+sys	0m12.673s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2579 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m23.743s
+user	0m10.477s
+sys	0m12.997s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2978 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m28.565s
+user	0m21.961s
+sys	0m28.458s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  3450 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m29.147s
+user	0m22.245s
+sys	0m29.514s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  3906 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m44.810s
+user	0m27.638s
+sys	0m41.567s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4374 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m5.064s
+user	0m39.690s
+sys	1m10.736s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  5081 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    for prog in {"simple_coloring","undirected_triangle_count1"};
+do
+    ./runProgram.sh 14 1 $prog enwiki;
+done  (wd: ~/output)
+(wd now: ~/output/undirected_triangle_count1)
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ mv enwikie[K enwiki0482
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ cd simple_coloring/..[Kmv enwiki enwiki0482
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ cd [K[K[Kls
+[0m[01;34mcitpatent[0m   [01;34menwiki1009[0m     [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+[01;34menwiki0797[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m         [01;34msoclivejournal0736[0m
+[01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m          [01;34msoclivejournal0836[0m
+hadoopnew@ylab5:~/output/simple_coloring$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd ..[3Plsmv enwiki enwiki0482[1Pcd simple_coloring/..[Kmv enwiki enwiki0482ls[Kmv enwiki797/ enwiki0797cd ../undirected_triangle_count1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pmv enwiki797/ enwiki0797[5Pcd simple_coloring/ls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &
+[1] 6093
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	0m52.031s
+user	0m44.775s
+sys	0m19.345s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  6101 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m46.380s
+user	0m40.703s
+sys	0m17.777s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  6835 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m44.609s
+user	0m40.583s
+sys	0m17.593s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  7568 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m42.970s
+user	0m38.238s
+sys	0m18.397s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  8121 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m41.365s
+user	0m37.838s
+sys	0m16.385s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  8657 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m40.344s
+user	0m38.682s
+sys	0m15.369s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  9312 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m41.353s
+user	0m41.595s
+sys	0m15.957s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  9951 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m43.352s
+user	0m44.031s
+sys	0m15.593s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 10604 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+real	0m45.557s
+user	0m46.771s
+sys	0m17.253s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11256 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m50.155s
+user	0m53.535s
+sys	0m16.073s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11967 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m52.569s
+user	1m0.508s
+sys	0m15.293s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12752 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m2.218s
+user	1m20.693s
+sys	0m30.082s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 13566 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m12.097s
+user	1m36.574s
+sys	0m32.554s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14537 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m43.258s
+user	2m8.656s
+sys	0m53.123s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15649 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.774s
+user	0m6.820s
+sys	0m12.573s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17227 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.731s
+user	0m6.828s
+sys	0m12.733s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17631 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.110s
+user	0m7.208s
+sys	0m12.737s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18049 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m23.932s
+user	0m7.288s
+sys	0m12.669s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18451 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m22.908s
+user	0m7.528s
+sys	0m12.589s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18852 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.933s
+user	0m7.448s
+sys	0m12.745s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19237 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.919s
+user	0m8.161s
+sys	0m12.457s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19591 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.291s
+user	0m8.093s
+sys	0m12.549s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19959 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.918s
+user	0m8.721s
+sys	0m12.521s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20311 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m22.703s
+user	0m9.293s
+sys	0m12.669s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20677 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m23.142s
+user	0m10.525s
+sys	0m13.029s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21058 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m28.315s
+user	0m18.989s
+sys	0m30.618s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21437 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m27.595s
+user	0m21.809s
+sys	0m29.190s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21890 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m48.399s
+user	0m38.434s
+sys	0m54.463s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 22342 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    for prog in {"simple_coloring","undirected_triangle_count1"};
+do
+    ./runProgram.sh 14 1 $prog enwiki;
+done
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ mv enwiki enwiki0384[K3
+hadoopnew@ylab5:~/output/simple_coloring$ cd ../undirected_triangle_count1/
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls
+[0m[01;34menwiki[0m      [01;34menwiki1009[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m       [01;34msoclivejournal0539[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0637[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34morkut[0m               [01;34msoclivejournal0736[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34msoclivejournal0265[0m  [01;34msoclivejournal0836[0m
+[01;34menwiki0797[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0903[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0447[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ mvlscd ../undirected_triangle_count1/[13Pmv enwiki enwiki0383
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd ..mv enwiki enwiki0383ls[Kcd ../undirected_triangle_count1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pmv enwiki enwiki0383[1Pcd simple_coloring/for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &
+[1] 23106
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	0m59.660s
+user	0m47.359s
+sys	0m20.757s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23114 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m40.760s
+user	0m33.030s
+sys	0m16.733s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23908 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m42.167s
+user	0m35.262s
+sys	0m16.273s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 24551 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m38.354s
+user	0m32.794s
+sys	0m16.189s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 25178 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m36.147s
+user	0m30.766s
+sys	0m14.497s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 25744 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m37.179s
+user	0m32.726s
+sys	0m15.317s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 26324 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m37.553s
+user	0m33.334s
+sys	0m14.889s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 26918 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m40.169s
+user	0m37.178s
+sys	0m15.005s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 27526 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m40.540s
+user	0m39.698s
+sys	0m13.817s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 28148 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m42.138s
+user	0m44.387s
+sys	0m14.609s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 28799 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m46.564s
+user	0m49.571s
+sys	0m14.717s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 29464 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m50.966s
+user	0m58.076s
+sys	0m13.989s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 30188 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m0.804s
+user	1m22.781s
+sys	0m27.726s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 30986 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m22.973s
+user	1m32.294s
+sys	0m38.370s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 31918 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.206s
+user	0m6.328s
+sys	0m12.633s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:   738 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m23.553s
+user	0m5.904s
+sys	0m12.333s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1127 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m24.101s
+user	0m6.552s
+sys	0m12.589s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1515 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m22.121s
+user	0m6.732s
+sys	0m12.409s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1923 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.898s
+user	0m6.492s
+sys	0m12.765s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2309 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+real	0m21.307s
+user	0m6.692s
+sys	0m12.457s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2686 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+real	0m21.070s
+user	0m7.056s
+sys	0m12.493s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  3058 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+real	0m21.292s
+user	0m6.936s
+sys	0m12.529s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  3488 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m22.068s
+user	0m7.660s
+sys	0m12.221s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  3842 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.304s
+user	0m8.129s
+sys	0m12.397s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4208 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.311s
+user	0m8.233s
+sys	0m12.701s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4558 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m21.690s
+user	0m9.009s
+sys	0m12.821s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4922 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m26.079s
+user	0m18.737s
+sys	0m29.714s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  5270 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m41.552s
+user	0m23.729s
+sys	0m40.843s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  5692 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    for prog in {"simple_coloring","undirected_triangle_count1"};
+do
+    ./runProgram.sh 14 1 $prog enwiki;
+done
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki0797[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki[0m      [01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m  [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m  [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/simple_coloring$ mv enwiki enwiki2[K0285
+hadoopnew@ylab5:~/output/simple_coloring$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd undirected_triangle_count1
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ mvcd undirected_triangle_count1..[Kmv enwiki enwiki0285
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls
+[0m[01;34menwiki0285[0m  [01;34menwiki0903[0m     [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m       [01;34msoclivejournal0447[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m       [01;34msoclivejournal0539[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0637[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34morkut[0m               [01;34msoclivejournal0736[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34msoclivejournal0265[0m  [01;34msoclivejournal0836[0m
+[01;34menwiki0797[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cat enwiki* [K/*/[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls enwiki*
+enwiki0285:
+[0m[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0383:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0482:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0585:
+[01;34m1[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0691:
+[01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0797:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0903:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1009:
+[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1115:
+[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1222:
+[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1329:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls | while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && m v 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; done
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `1': No such file or directory
+mv: cannot stat `1': No such file or directory
+mv: cannot stat `1': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `1': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls | while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+enwiki0285:
+[0m[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0383:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0482:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0585:
+[01;34m1[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0691:
+[01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0797:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0903:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1009:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1115:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1222:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1329:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; done
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls | while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+enwiki0285:
+[0m[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0383:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0482:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0585:
+[01;34m1[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0691:
+[01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0797:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0903:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1009:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1115:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1222:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1329:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls enwiki*[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34menwiki0285[0m  [01;34menwiki0903[0m     [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m       [01;34msoclivejournal0447[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m       [01;34msoclivejournal0539[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0637[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34morkut[0m               [01;34msoclivejournal0736[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34msoclivejournal0265[0m  [01;34msoclivejournal0836[0m
+[01;34menwiki0797[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls enwiki*
+enwiki0285:
+[0m[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0383:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0482:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0585:
+[01;34m1[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0691:
+[01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0797:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0903:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1009:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1115:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1222:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1329:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd enwi[K[K[K[K[K[K[Kcat enwiki*/*/log.txt | grep ''t'o't'a'l'[1P[1@0[1@2[1@8[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 't'i'm'e'
+[01;31m[Ktotal time[m[K  40.6988
+[01;31m[Ktotal time[m[K  25.1791
+[01;31m[Ktotal time[m[K  19.8307
+[01;31m[Ktotal time[m[K  19.4776
+[01;31m[Ktotal time[m[K  19.5022
+[01;31m[Ktotal time[m[K  20.2606
+[01;31m[Ktotal time[m[K  19.3838
+[01;31m[Ktotal time[m[K  19.3398
+[01;31m[Ktotal time[m[K  19.5827
+[01;31m[Ktotal time[m[K  20.1421
+[01;31m[Ktotal time[m[K  20.1912
+[01;31m[Ktotal time[m[K  22.2112
+[01;31m[Ktotal time[m[K  21.6925
+[01;31m[Ktotal time[m[K  22.2023
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cat enwiki0285/*/log.txt | grep 'total time'ls enwiki*[K[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmv enwiki enwiki0285cd undirected_triangle_count1..[Kmv enwiki enwiki0285ls[Kcd simple_coloring/for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki0383ls[Kcd ../undirected_triangle_count1/[13Pmv enwiki enwiki0383[1Pcd simple_coloring/for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Plsmv enwiki enwiki0482[1Pcd simple_coloring/..[Kmv enwiki enwiki0482ls[Kmv enwiki797/ enwiki0797cd ../undirected_triangle_count1[8Pmv enwiki797/ enwiki0797[5Pcd simple_coloring/ls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki797cd ../undirected_triangle_count1[13Pmv enwiki enwiki797ls[Kcd simple_coloring/[12Pfree -m[1Pps -af[4Plsfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Plscd ..for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -affree -mcd simple_coloring/ls[Kmv enwiki enwiki797cd ../undirected_triangle_count1[13Pmv enwiki enwiki797cd ..[Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls simple_coloring/[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki797/ enwiki0797cd ../undirected_triangle_count1[8Pmv enwiki797/ enwiki0797ls[Kmv enwiki enwiki0482cd ..[Ksimple_coloring/mv enwiki enwiki0482ls[Kcd ..for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd simple_coloring/[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki0383cd ../undirected_triangle_count1/ls[Kmv enwiki enwiki0383cd ..[Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog ennwiki; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd simple_coloring/[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv enwiki enwiki0285cd ..[Kundirected_triangle_count1[9Pmv enwiki enwiki0285ls[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mvv 4 04 && mv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K enwiki*cat enwiki0285/*/log.txt | grep 'total time'[Kcd .
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ./runProgram.sh 14 2[K1 directed_triangle_count/[K enwiki &
+[1] 6774
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ jls
+bash: jls: command not found
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki0797[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki0285[0m  [01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m  [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m  [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki*
+cat: enwiki0285: Is a directory
+cat: enwiki0383: Is a directory
+cat: enwiki0482: Is a directory
+cat: enwiki0585: Is a directory
+cat: enwiki0691: Is a directory
+cat: enwiki0797: Is a directory
+cat: enwiki0903: Is a directory
+cat: enwiki1009: Is a directory
+cat: enwiki1115: Is a directory
+cat: enwiki1222: Is a directory
+cat: enwiki1329: Is a directory
+cat: enwiki1404: Is a directory
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki*[1P enwiki*[1P enwiki*[1P enwiki*l enwiki*s enwiki*
+enwiki0285:
+[0m[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0383:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0482:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0585:
+[01;34m1[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0691:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0797:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki0903:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1009:
+[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1115:
+[01;34m1[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+
+enwiki1222:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1329:
+[01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1404:
+[01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m15[0m
+hadoopnew@ylab5:~/output/simple_coloring$ ls | while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && m v 3 03 && mv 2 02 && mv 1 01; cd ..; done
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `1': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+mv: cannot stat `9': No such file or directory
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ ls | while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+enwiki0285:
+[0m[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0383:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0482:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0585:
+[01;34m1[0m  [01;34m2[0m  [01;34m3[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m
+
+enwiki0691:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0797:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki0903:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1009:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1115:
+[01;34m01[0m  [01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1222:
+[01;34m02[0m  [01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1329:
+[01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+
+enwiki1404:
+[01;34m03[0m  [01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m15[0m
+hadoopnew@ylab5:~/output/simple_coloring$ 
+real	1m0.620s
+user	0m48.719s
+sys	0m19.157s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  6781 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki0797[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki0285[0m  [01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m  [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m  [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/simple_coloring$ 
+real	0m58.878s
+user	0m51.355s
+sys	0m19.453s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  7726 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki0285/
+01/ 02/ 03/ 04/ 05/ 06/ 07/ 08/ 09/ 10/ 11/ 12/ 13/ 14/ 
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki0285/*/log.txt | greap[K[Kp ''t'o't'a'l' 't'i'm'e'
+[01;31m[Ktotal time[m[K  82.086
+[01;31m[Ktotal time[m[K  59.9467
+[01;31m[Ktotal time[m[K  49.0691
+[01;31m[Ktotal time[m[K  44.65
+[01;31m[Ktotal time[m[K  40.378
+[01;31m[Ktotal time[m[K  38.7615
+[01;31m[Ktotal time[m[K  38.4179
+[01;31m[Ktotal time[m[K  35.6911
+[01;31m[Ktotal time[m[K  35.3181
+[01;31m[Ktotal time[m[K  34.3503
+[01;31m[Ktotal time[m[K  36.54
+[01;31m[Ktotal time[m[K  40.3886
+[01;31m[Ktotal time[m[K  38.9432
+[01;31m[Ktotal time[m[K  57.7995
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki0285/*/log.txt | grep 'total time'[1P[1@3
+real	0m59.298s
+user	0m53.571s
+sys	0m18.421s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  8535 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+ls[K enwiki*[Kcat enwiki0385/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki0385/*/log.txt | grep 'total time'[C[C[1P[1P[2@83
+[01;31m[Ktotal time[m[K  102.49
+[01;31m[Ktotal time[m[K  71.2362
+[01;31m[Ktotal time[m[K  60.432
+[01;31m[Ktotal time[m[K  50.8092
+[01;31m[Ktotal time[m[K  48.3534
+[01;31m[Ktotal time[m[K  43.6521
+[01;31m[Ktotal time[m[K  41.5445
+[01;31m[Ktotal time[m[K  39.4711
+[01;31m[Ktotal time[m[K  38.4498
+[01;31m[Ktotal time[m[K  39.498
+[01;31m[Ktotal time[m[K  41.0495
+[01;31m[Ktotal time[m[K  42.8277
+[01;31m[Ktotal time[m[K  44.5772
+[01;31m[Ktotal time[m[K  50.0804
+hadoopnew@ylab5:~/output/simple_coloring$ cat enwiki0383/*/log.txt | grep 'total time'285[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[Cls[Kjlscd simple_coloring/./runProgram.sh 14 1 directed_triangle_count enwiki &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[Kat enwiki0285/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls enwiki*[K[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmv enwiki enwiki0285cd undirected_triangle_count1..[Kmv enwiki enwiki0285ls[Kcd simple_coloring/for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki0383ls[Kcd ../undirected_triangle_count1/[13Pmv enwiki enwiki0383[1Pcd simple_coloring/for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Plsmv enwiki enwiki0482[1Pcd simple_coloring/..[Kmv enwiki enwiki0482ls[Kmv enwiki797/ enwiki0797cd ../undirected_triangle_count1[8Pmv enwiki797/ enwiki0797[5Pcd simple_coloring/ls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki797cd ../undirected_triangle_count1[13Pmv enwiki enwiki797ls[Kcd simple_coloring/[12Pfree -m[1Pps -af[4Plsfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Plscd simple_coloring/..[K[3Plscd undirected_triangle_count1/ps -af[Keaf./runProgram.sh 14 2 undirected_triangle_count1 orkut &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kmv soclivejournal soclivejournal0936[6Pcd undirected_triangle_count1/..[Kmv soclivejournal soclivejournal0936[17Pcd simple_coloring/][Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 8 2 $prog soclivejournall; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv soclivejournal soclivejournal0836[6Pcd undirected_triangle_count1/..[Kundirected_triangle_count1/mv soclivejournal soclivejournal0836cd ..[Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 8 2 $prog soclivejournall; done &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C][K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd simple_coloring/mv soclivejournal soclivejournal0936cd ..[Kundirected_triangle_count1/mv soclivejournal soclivejournal0936cd ..[K./runProgram.sh 14 2 undirected_triangle_count1 orkut &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -eaf[K[1Pafcd undirected_triangle_count1/ls[Kcd ..simple_coloring/ls[Kcd ..for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -affree -mcd simple_coloring/ls[Kmv enwiki enwiki797cd ../undirected_triangle_count1[13Pmv enwiki enwiki797cd ..[Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls simple_coloring/[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki797/ enwiki0797cd ../undirected_triangle_count1[8Pmv enwiki797/ enwiki0797ls[Kmv enwiki enwiki0482cd ..[Ksimple_coloring/mv enwiki enwiki0482ls[Kcd ..for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd simple_coloring/[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki0383cd ../undirected_triangle_count1/ls[Kmv enwiki enwiki0383cd ..[Kfor prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done  &M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd simple_coloring/[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv enwiki enwiki0285cd ..[Kundirected_triangle_count1[9Pmv enwiki enwiki0285ls[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K enwiki*cat enwiki0285/*/log.txt | grep 'total time'd .[K../runProgram.sh 14 1 directed_triangle_count enwiki &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcd simple_coloring/jls[K[1Plscat enwiki*[1Pls[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mvv 3 03 && mv 2 02 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat enwiki0285/*/log.txt | grep 'total time'383[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+real	0m57.302s
+user	0m55.959s
+sys	0m19.209s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  9367 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m55.547s
+user	0m58.756s
+sys	0m18.825s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 10177 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m55.935s
+user	1m2.744s
+sys	0m19.641s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 10943 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	0m58.363s
+user	1m7.268s
+sys	0m20.509s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11826 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m2.188s
+user	1m13.149s
+sys	0m19.477s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12744 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m6.040s
+user	1m21.509s
+sys	0m20.185s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 13711 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m12.110s
+user	1m32.922s
+sys	0m20.613s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14738 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m19.557s
+user	1m46.515s
+sys	0m20.809s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15857 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m37.929s
+user	2m24.725s
+sys	0m35.298s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17076 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m4.163s
+user	3m16.080s
+sys	0m32.022s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18519 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       1745       2222          0         15        780
+-/+ buffers/cache:        949       3018
+Swap:         7730         42       7688
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+real	3m33.914s
+user	5m49.514s
+sys	0m53.871s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20415 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    ./runProgram.sh 14 1 directed_triangle_count enwiki  (wd: ~/output)
+(wd now: ~/output/simple_coloring)
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ cd ..
+hadoopnew@ylab5:~/output$ cd directed_triangle_count/
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ ls
+[0m[01;34mcitpatent[0m  [01;34menwiki0585[0m  [01;34mhollywood0200[0m  [01;34mhollywood0727[0m  [01;34mhollywood1149[0m  [01;34mitwiki[0m          [01;34msocpokec[0m
+[01;34menwiki[0m     [01;34menwiki0691[0m  [01;34mhollywood0622[0m  [01;34mhollywood0938[0m  [01;34mhollywood1254[0m  [01;34msoclivejournal[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/directed_triangle_count$ mv enwiki enwiki0383
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd ..mv enwiki enwiki0383ls[Kcd directed_triangle_count/..[Kfree -m[2Pcd ..directed_triangle_count/..[Kfree -mcat enwiki0383/*/log.txt | grep 'total time'285[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mv 3 03 && mv 2 022 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[Cls[Kjlscd simple_coloring/./runProgram.sh 14 1 directed_triangle_count enwiki &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[K../runProgram.sh 14 1 directed_triangle_count enwiki &[C[C[C[C[C[C[C[C[C[C[C[1P &[1P &[1P &[1P &[1P &[1P &h &o &l &l &y &w &o &o &d &[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@i[1@m[1@p[1@l[1@e[1@_[1@c[1@o[1@l[1@o[1@r[1@i[1@n[1@g[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1] 23716
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ./cpu_mem_client
+Machine 10.6.9.219 CpuFree% 52.48 MemFree% 95.46 Memfree 3787 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 4419489
+Machine 10.6.9.218 CpuFree% 53.18 MemFree% 96.50 Memfree 3828 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 5189909
+Machine 10.6.9.212 CpuFree% 52.74 MemFree% 97.80 Memfree 3880 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 5373085
+Machine 10.6.9.207 CpuFree% 51.44 MemFree% 96.51 Memfree 3828 MB, Memtotal 3967 MB, Swapfree 7729 MB, Swaptotal 7730 MB Netout 4357830
+Machine 10.6.9.211 CpuFree% 52.59 MemFree% 97.79 Memfree 3879 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 3393428
+Machine 10.6.9.223 CpuFree% 53.13 MemFree% 96.97 Memfree 3847 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 3993371
+Machine 10.6.9.210 CpuFree% 53.43 MemFree% 97.75 Memfree 3878 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 3414468
+Machine 10.6.9.220 CpuFree% 52.03 MemFree% 97.27 Memfree 3859 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 3019635
+Machine 10.6.9.209 CpuFree% 52.13 MemFree% 97.71 Memfree 3876 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 3456456
+Machine 10.6.9.221 CpuFree% 51.67 MemFree% 97.01 Memfree 3848 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 717399
+Machine 10.6.9.222 CpuFree% 52.66 MemFree% 97.19 Memfree 3855 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 831267
+Machine 10.6.9.215 CpuFree% 51.34 MemFree% 96.38 Memfree 3823 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 5143039
+Machine 10.6.9.205 CpuFree% 52.12 MemFree% 97.53 Memfree 3869 MB, Memtotal 3967 MB, Swapfree 7687 MB, Swaptotal 7730 MB Netout 4432644
+Machine 10.6.9.213 CpuFree% 51.31 MemFree% 96.35 Memfree 3822 MB, Memtotal 3967 MB, Swapfree 7730 MB, Swaptotal 7730 MB Netout 5113185
+
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	5m46.205s
+user	5m55.190s
+sys	1m57.515s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23723 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m40.077s
+user	3m7.420s
+sys	1m0.456s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 27492 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m0.066s
+user	2m23.589s
+sys	0m51.607s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 29740 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m3.649s
+user	2m29.829s
+sys	0m49.819s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 31522 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m55.322s
+user	2m15.496s
+sys	0m48.027s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:   860 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m1.503s
+user	2m31.929s
+sys	1m4.684s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2608 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m5.428s
+user	2m37.422s
+sys	1m3.664s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4544 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m31.503s
+user	2m58.523s
+sys	1m16.285s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  6457 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m42.133s
+user	3m13.556s
+sys	1m16.961s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  8762 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	3m43.182s
+user	3m49.630s
+sys	2m2.736s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 11213 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	9m40.558s
+user	4m37.153s
+sys	2m11.988s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14398 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    ./runProgram.sh 14 4 simple_coloring hollywood
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ s[Kcat ho[K[K[K[K[K[Kls
+[0m[01;34mcitpatent[0m   [01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0938[0m  [01;34mhollywood1692[0m  [01;34mhollywood2479[0m  [01;34mhollywood3269[0m       [01;34msoclivejournal0736[0m
+[01;34menwiki0285[0m  [01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood1043[0m  [01;34mhollywood1803[0m  [01;34mhollywood2592[0m  [01;34mitwiki[0m              [01;34msoclivejournal0836[0m
+[01;34menwiki0383[0m  [01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1149[0m  [01;34mhollywood1916[0m  [01;34mhollywood2705[0m  [01;34morkut[0m               [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1222[0m  [01;34mhollywood0517[0m  [01;34mhollywood1254[0m  [01;34mhollywood2028[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1329[0m  [01;34mhollywood0622[0m  [01;34mhollywood1360[0m  [01;34mhollywood2141[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0447[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1404[0m  [01;34mhollywood0727[0m  [01;34mhollywood1465[0m  [01;34mhollywood2254[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0539[0m  [01;34mwebgoogle[0m
+[01;34menwiki0797[0m  [01;34mhollywood[0m   [01;34mhollywood0838[0m  [01;34mhollywood1578[0m  [01;34mhollywood2367[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0637[0m
+hadoopnew@ylab5:~/output/simple_coloring$ mv hollywood hollywood3156
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ c[Kcat hollywood3156/*/log.txt | gre p[K[Kp ''t'o't'a'l' 't'i'm'e'
+[01;31m[Ktotal time[m[K  343.666
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki0797[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki0285[0m  [01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m  [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m  [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/simple_coloring$ cd hollywood3156/
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ ls
+[0m[01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34mhollywood[0m
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ cd hollywood/l[K
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156/hollywood$ ls
+[0m[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156/hollywood$ cd ..
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ rm 1*
+rm: cannot remove `10': Is a directory
+rm: cannot remove `11': Is a directory
+rm: cannot remove `12': Is a directory
+rm: cannot remove `13': Is a directory
+rm: cannot remove `14': Is a directory
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ rm 1* -r
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ ls
+[0m[01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34mhollywood[0m
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ rm 0*
+rm: cannot remove `04': Is a directory
+rm: cannot remove `05': Is a directory
+rm: cannot remove `06': Is a directory
+rm: cannot remove `07': Is a directory
+rm: cannot remove `08': Is a directory
+rm: cannot remove `09': Is a directory
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ rm 0* -r
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ cd hollywood/
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156/hollywood$ mv * ../
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156/hollywood$ ls
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156/hollywood$ cd ..
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ ls
+[0m[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m  [01;34mhollywood[0m
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ rm -r hollywood/
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ cd ..
+hadoopnew@ylab5:~/output/simple_coloring$ cd hollywood3156/
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ ls
+[0m[01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m  [01;34m4[0m  [01;34m5[0m  [01;34m6[0m  [01;34m7[0m  [01;34m8[0m  [01;34m9[0m
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ mv 4 -[K04 && 5 05 && 6 06 && 7 07 && 8 08 && 9 09
+bash: 5: command not found
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ 
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ 
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ mv 4 04 && 5 05 && 6 06 && 7 07 && 8 08 && 9 09[1@m[1@v[1@ [C[C[C[C[C[C[C[C[1@m[1@v[1@ [C[C[C[C[C[C[C[C[1@m[1@v[1@ [C[C[C[C[C[C[C[C[1@m[1@v[1@ [C[C[C[C[C[C[C[C[1@m[1@v[1@ 
+mv: cannot stat `4': No such file or directory
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ mv 4 04 && mv 5 05 && mv 6 06 && mv 7 07 && mv 8 08 && mv 9 09[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ ls
+[0m[01;34m04[0m  [01;34m05[0m  [01;34m06[0m  [01;34m07[0m  [01;34m08[0m  [01;34m09[0m  [01;34m10[0m  [01;34m11[0m  [01;34m12[0m  [01;34m13[0m  [01;34m14[0m
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ cat */log.tx 5[K[K[Kxt | grep ''t'o't'a'l' 't'i'm'e'
+[01;31m[Ktotal time[m[K  569.982
+[01;31m[Ktotal time[m[K  218.057
+[01;31m[Ktotal time[m[K  159.478
+[01;31m[Ktotal time[m[K  148.619
+[01;31m[Ktotal time[m[K  122.366
+[01;31m[Ktotal time[m[K  118.758
+[01;31m[Ktotal time[m[K  113.204
+[01;31m[Ktotal time[m[K  121.049
+[01;31m[Ktotal time[m[K  118.088
+[01;31m[Ktotal time[m[K  157.979
+[01;31m[Ktotal time[m[K  342.9
+hadoopnew@ylab5:~/output/simple_coloring/hollywood3156$ cd ~/output/
+hadoopnew@ylab5:~/output$ ls
+backtrace.0          [0m[01;32mcpu_mem_client_15[0m        [01;34mkcore[0m                [01;32mrunProgram.sh[0m    [01;34msimple_undirected_triangle_count[0m  [01;34mTSC[0m
+[01;34mconnected_component[0m  [01;32mcpu_mem_client_8[0m         [01;34mpagerank[0m             [01;32mrunStatus.sh[0m     [01;34msssp[0m                              [01;34mundirected_triangle_count[0m
+[01;32mcpu_mem_client[0m       cpu_mem_client.cpp       [01;32mrunJob.sh[0m            screenlog.0      [01;32mstats.sh[0m                          [01;34mundirected_triangle_count1[0m
+[01;32mcpu_mem_client_14[0m    [01;34mdirected_triangle_count[0m  [01;32mrunProgramNnodes.sh[0m  [01;34msimple_coloring[0m  [01;32mstats.sh~[0m
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ [4P(reverse-i-search)`':[Cf': free -mo': for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[1@hadoopnew@ylab5:~/output$[Ccd simple_coloring/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[4P(reverse-i-search)`':[Cd': for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@_[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Phadoopnew@ylab5:~/output$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klsmv enwiki enwiki0285cd ..[Kundirected_triangle_count1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pmv enwiki enwiki0285ls[K enwiki*| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mv 3 03 && mv 2 022 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mv 3 03 && mv 2 022 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K enwiki*cat enwiki0285/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd .[K../runProgram.sh 14 1 directed_triangle_count enwiki &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcd simple_coloring/jls[K[1Plscat enwiki*[1Pls[C[C[C[C[C[C[C[C| while read line; do cd $line && mv 9 09 && mv 8 08 && mv 7 07 && mv 6 06 && mv 5 05 && mv 4 04 && mv 3 03 && mv 2 022 && mv 1 01; cd ..; doneM[C[C[C[Cenwiki*[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat enwiki0285/*/log.txt | grep 'total time'383[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfree -m[K[2Pcd ..directed_triangle_count/ls[Kmv enwiki enwiki0383cd ..[K./runProgram.sh 14 4 simple_coloring hollywood &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccpu_mem_client[Kcd simple_coloring/ls[Kmv hollywood hollywood3156cat hollywood3156/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd hollywood3156/ls[Kcd hollywood/ls[Kcd ..rm 1* -rls[Krm 0* -rcd hollywood/[5Pmv * ../ls[Kcd ..[3Plsrm -r hollywood/cd ..[Khollywood3156/ls[Kmv 4 04 && 5 05 && 6 06 && 7 07 && 8 08 && 9 09[15@mv 5 05 && mv 6 06 && mv 7 07 && mv 8 08 && mv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat */log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pd ~/output/ls[K[Klscd ~/output/at */log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv 4 04 && mv 5 05 && mv 6 06 && mv 7 07 && mv 8 08 && mv 9 09[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P5 05 && 6 06 && 7 07 && 8 08 &&[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd hollywood3156/..[Krm -r hollywood/ls[Kcd ..[3Plsmv * ../cd hollywood/[5Prm 0* -r[K[3Plsrm 1* -r[Kcd ..[3Plscd hollywood/ls[Kcd hollywood3156/ls[Kcat hollywood3156/*/log.txt | grep 'total time'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[4P(reverse-i-search)`':[Cr': cd simple_coloring/u': ./runProgram.sh 14 4 simple_coloring hollywood &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@1 directed_triangle_count enwiki[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@hadoopnew@ylab5:~/output$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcd simple_coloring/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[4P(reverse-i-search)`':[Cf': for prog in {"simple_coloring","undirected_triangle_count1"}; do ./runProgram.sh 14 1 $prog enwiki; done &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@o[C[C[C[1@r[C[C[C[1@hadoopnew@ylab5:~/output$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@"[1@d[1@i[1@r[1@e[1@t[1P[1@c[1@t[1@e[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@l[1@e[1@_[1@u[1@n[1@d[1@i[1@r[1@e[1@c[1@t[1@e[1@d[1@_[1@t[1@r[1@i[1@a[1@n[1@g[1@l[1@e[1@_[1@c[1@o[1@u[1@nt","directed_triangle_count"}; do ./runProgram.sh 14 1 $prog enwiki; done & M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K&
+[1] 22416
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ ps af
+  PID TTY      STAT   TIME COMMAND
+22359 pts/3    Ss+    0:00 -bash
+ 6651 pts/1    Ss     0:00 -bash
+23664 pts/1    S+     0:00  \_ screen -r
+ 3512 pts/2    Ss     0:00 /bin/bash
+22416 pts/2    S      0:00  \_ /bin/bash
+22417 pts/2    S      0:00  |   \_ /bin/bash
+22422 pts/2    S      0:00  |       \_ /bin/bash
+22424 pts/2    S      0:00  |           \_ /bin/bash
+22520 pts/2    Sl     0:00  |           |   \_ /home/hadoopnew/output/cpu_mem_client
+22425 pts/2    S      0:00  |           \_ /bin/bash
+22441 pts/2    S      0:00  |               \_ mpiexec -n 14 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkit
+22455 pts/2    Rl     0:00  |                   \_ /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_c
+22535 pts/2    R+     0:00  \_ ps af
+ 3396 tty6     Ss+    0:00 /sbin/getty 38400 tty6
+ 3395 tty5     Ss+    0:00 /sbin/getty 38400 tty5
+ 3394 tty4     Ss+    0:00 /sbin/getty 38400 tty4
+ 3393 tty3     Ss+    0:00 /sbin/getty 38400 tty3
+ 3392 tty2     Ss+    0:00 /sbin/getty 38400 tty2
+ 3391 tty1     Ss+    0:00 /sbin/getty 38400 tty1
+hadoopnew@ylab5:~/output$ ps af-af
+UID        PID  PPID  C STIME TTY          TIME CMD
+1000     22416  3512  0 21:15 pts/2    00:00:00 /bin/bash
+1000     22417 22416  0 21:15 pts/2    00:00:00 /bin/bash
+1000     22422 22417  0 21:15 pts/2    00:00:00 /bin/bash
+1000     22424 22422  0 21:15 pts/2    00:00:00 /bin/bash
+1000     22425 22422  0 21:15 pts/2    00:00:00 /bin/bash
+1000     22441 22425  0 21:15 pts/2    00:00:00 mpiexec -n 14 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolki
+1000     22455 22441 60 21:15 pts/2    00:00:04 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_coun
+1000     22566 22424  0 21:15 pts/2    00:00:00 /home/hadoopnew/output/cpu_mem_client
+1000     22581  3512  0 21:15 pts/2    00:00:00 ps -af
+1000     23664  6651  0 20:10 pts/1    00:00:00 screen -r
+hadoopnew@ylab5:~/output$ 
+real	1m8.078s
+user	1m10.032s
+sys	0m17.029s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 22424 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m7.383s
+user	1m12.953s
+sys	0m16.473s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23445 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd s[Kn[Kundirected_triangle_count1/
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ ls
+[0m[01;34menwiki0285[0m  [01;34menwiki0903[0m     [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m       [01;34msoclivejournal0447[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m     [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m       [01;34msoclivejournal0539[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m     [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m       [01;34msoclivejournal0637[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m     [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34morkut[0m               [01;34msoclivejournal0736[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34msoclivejournal0265[0m  [01;34msoclivejournal0836[0m
+[01;34menwiki0797[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cat orkut/
+02/ 03/ 04/ 05/ 06/ 07/ 08/ 09/ 10/ 11/ 12/ 13/ 14/ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cat orkut/*/log.tdt[K[Kxt | grep ''t'o't'a'l' 't'i'm'e'
+[01;31m[Ktotal time[m[K  109.558
+[01;31m[Ktotal time[m[K  76.6305
+[01;31m[Ktotal time[m[K  68.2762
+[01;31m[Ktotal time[m[K  66.1907
+[01;31m[Ktotal time[m[K  43.4311
+[01;31m[Ktotal time[m[K  42.5206
+[01;31m[Ktotal time[m[K  41.3023
+[01;31m[Ktotal time[m[K  41.2531
+[01;31m[Ktotal time[m[K  42.283
+[01;31m[Ktotal time[m[K  36.5639
+[01;31m[Ktotal time[m[K  37.0045
+[01;31m[Ktotal time[m[K  37.5712
+[01;31m[Ktotal time[m[K  38.7844
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+real	1m7.790s
+user	1m15.457s
+sys	0m15.605s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 24497 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m10.036s
+user	1m19.273s
+sys	0m16.857s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 25510 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m10.207s
+user	1m22.589s
+sys	0m16.221s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 26556 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m13.005s
+user	1m27.069s
+sys	0m16.653s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 27556 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m14.398s
+user	1m31.378s
+sys	0m16.845s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 28690 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m17.190s
+user	1m37.158s
+sys	0m17.157s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 29838 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m24.364s
+user	1m46.879s
+sys	0m16.693s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 31015 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m31.836s
+user	2m0.960s
+sys	0m16.689s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 32311 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m48.712s
+user	2m22.449s
+sys	0m32.426s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  1268 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m0.742s
+user	2m53.059s
+sys	0m33.078s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2968 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	3m8.281s
+user	3m54.779s
+sys	0m42.679s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  4880 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	5m50.122s
+user	6m25.132s
+sys	1m9.704s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  7720 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m11.675s
+user	1m0.232s
+sys	0m21.085s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 12808 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m8.110s
+user	1m2.288s
+sys	0m21.357s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 13827 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m7.328s
+user	1m5.384s
+sys	0m20.409s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 14800 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m5.932s
+user	1m9.732s
+sys	0m22.317s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15592 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m5.162s
+user	1m11.808s
+sys	0m21.141s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 16548 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m5.375s
+user	1m16.829s
+sys	0m21.809s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17458 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m8.624s
+user	1m22.937s
+sys	0m21.241s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18472 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ 
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       2081       1885          0          5        144
+-/+ buffers/cache:       1931       2036
+Swap:         7730         51       7679
+hadoopnew@ylab5:~/output/undirected_triangle_count1$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	1m12.257s
+user	1m30.930s
+sys	0m21.769s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19530 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m16.914s
+user	1m40.098s
+sys	0m22.417s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 20648 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m25.449s
+user	1m53.399s
+sys	0m22.721s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21824 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m37.191s
+user	2m23.933s
+sys	0m36.350s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 23094 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m56.605s
+user	2m56.495s
+sys	0m37.866s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 24540 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	2m46.029s
+user	4m7.683s
+sys	0m44.319s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 26268 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       3948         18          0          0          4
+-/+ buffers/cache:       3943         23
+Swap:         7730        957       6773
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	23m38.221s
+user	7m20.476s
+sys	1m34.034s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 28775 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+[1]+  Done                    for prog in {"simple_undirected_triangle_count","directed_triangle_count"};
+do
+    ./runProgram.sh 14 1 $prog enwiki;
+done
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m[2Pcd ..free -mcat orkut/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat orkut/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd undirected_triangle_count1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -af[K[1Paffor prog in {"simple_undirected_triangle_count","directed_triangle_count"}; do ./runProgram.sh 14 1 $prog enwiki; done & M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps af[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-afcd undirected_triangle_count1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat orkut/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfree -m[K[2Pcd ..free -m[Kcd s[Ksimple_undirected_triangle_count/
+hadoopnew@ylab5:~/output/simple_undirected_triangle_count$ ls
+[0m[01;34mcitpatent[0m  [01;34menwiki0585[0m  [01;34mhollywood0200[0m  [01;34mhollywood0727[0m  [01;34mhollywood0938[0m  [01;34mitwiki[0m          [01;34msocpokec[0m
+[01;34menwiki[0m     [01;34menwiki0691[0m  [01;34mhollywood0622[0m  [01;34mhollywood0833[0m  [01;34mhollywood1149[0m  [01;34msoclivejournal[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/simple_undirected_triangle_count$ mv enwiki enwiki0482
+hadoopnew@ylab5:~/output/simple_undirected_triangle_count$ 
+hadoopnew@ylab5:~/output/simple_undirected_triangle_count$ 
+hadoopnew@ylab5:~/output/simple_undirected_triangle_count$ cd ..
+hadoopnew@ylab5:~/output$ cd directed_triangle_count/
+hadoopnew@ylab5:~/output/directed_triangle_count$ mv enwiki enwiki0482
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ 
+hadoopnew@ylab5:~/output/directed_triangle_count$ cd ..
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ cd ..mv enwiki enwiki0482cd directed_triangle_count/..[Kmv enwiki enwiki0482ls[Kcd simple_undirected_triangle_count/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfree -m[K[2Pcd ..free -mcat orkut/*/log.txt | grep 'total time'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd undirected_triangle_count1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -af[K[1Paffor prog in {"simple_undirected_triangle_count","directed_triangle_count"}; do ./runProgram.sh 14 1 $prog enwiki; done & M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 $prog enwiki; done & M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[1] 15635
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+real	1m36.205s
+user	1m53.199s
+sys	0m18.993s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 15643 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m38.371s
+user	1m57.563s
+sys	0m19.629s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 17067 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m37.438s
+user	1m59.835s
+sys	0m20.157s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18430 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m38.507s
+user	2m8.076s
+sys	0m18.709s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 19912 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m40.223s
+user	2m8.256s
+sys	0m19.285s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 21288 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	1m42.081s
+user	2m16.833s
+sys	0m20.181s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 22831 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	5m3.873s
+user	2m25.657s
+sys	0m19.485s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 24386 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+real	6m48.297s
+user	2m44.926s
+sys	0m35.830s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 28939 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ pa -af
+bash: pa: command not found
+hadoopnew@ylab5:~/output$ pa -af[1P -afs -af
+UID        PID  PPID  C STIME TTY          TIME CMD
+1000      2574 15636  0 23:03 pts/2    00:00:00 /bin/bash
+1000      2576  2574  0 23:03 pts/2    00:00:00 /bin/bash
+1000      2577  2574  0 23:03 pts/2    00:00:00 /bin/bash
+1000      2579  2577  0 23:03 pts/2    00:00:00 mpiexec -n 6 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkit
+1000      2644  2579 43 23:03 pts/2    00:02:23 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_coun
+1000      7057  3512  0 23:08 pts/2    00:00:00 ps -af
+1000      7058  2576  0 23:08 pts/2    00:00:00 /home/hadoopnew/output/cpu_mem_client
+1000     15635  3512  0 22:41 pts/2    00:00:00 /bin/bash
+1000     15636 15635  0 22:41 pts/2    00:00:00 /bin/bash
+1000     23664  6651  0 20:10 pts/1    00:00:00 screen -r
+hadoopnew@ylab5:~/output$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       3947         19          0          0          4
+-/+ buffers/cache:       3942         24
+Swap:         7730       1322       6408
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m[1Pps -af[C[C[C[C[C[C
+UID        PID  PPID  C STIME TTY          TIME CMD
+1000      2574 15636  0 23:03 pts/2    00:00:00 /bin/bash
+1000      2576  2574  0 23:03 pts/2    00:00:00 /bin/bash
+1000      2577  2574  0 23:03 pts/2    00:00:00 /bin/bash
+1000      2579  2577  0 23:03 pts/2    00:00:00 mpiexec -n 6 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkit
+1000      2644  2579 21 23:03 pts/2    00:03:46 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_coun
+1000     15635  3512  0 22:41 pts/2    00:00:00 /bin/bash
+1000     15636 15635  0 22:41 pts/2    00:00:00 /bin/bash
+1000     17115  3512  1 23:20 pts/2    00:00:00 ps -af
+1000     23664  6651  0 20:10 pts/1    00:00:00 screen -r
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       3909         57          0          0          5
+-/+ buffers/cache:       3903         63
+Swap:         7730        788       6942
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m[Kfree -m[1Pps -affree -m[Kfree -m[1Pps -affree -m[K
+hadoopnew@ylab5:~/output$ free -m[1Pps -affree -m[Kfree -m[K
+real	19m14.488s
+user	3m2.735s
+sys	0m48.671s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12:  2576 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+free -m[K
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m[1Pps -affree -m[1Pps -afa[C[C[C[Cfor prog in {"simple_undirected_triangle_count","directed_triangle_count"}; do ./runProgram.sh 14 3 $prog enwiki; done & M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv enwiki enwiki0482cd directed_triangle_count/..[Kmv enwiki enwiki0482ls[Kcd simple_undirected_triangle_count/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfree -m[K[2Pcd ..free -m[2Pcd ..free -mcd simple_undirected_triangle_count/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv enwiki enwiki0482cd ..[Kdirected_triangle_count/[7Pmv enwiki enwiki0482cd ..[Kfor prog in {"simple_undirected_triangle_count","directed_triangle_count"}; do ./runProgram.sh 14 3 $prog enwiki; done & M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpa -af[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[C[C[C[Cfree -m[1Pps -affree -m[K
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ 
+hadoopnew@ylab5:~/output$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       3945         21          0          0          4
+-/+ buffers/cache:       3941         26
+Swap:         7730       1251       6479
+hadoopnew@ylab5:~/output$ cs [K[K[Kcd simple_coloring/
+hadoopnew@ylab5:~/output/simple_coloring$ ls
+[0m[01;34mcitpatent[0m   [01;34menwiki0797[0m  [01;34menwiki1404[0m     [01;34mhollywood0727[0m  [01;34mhollywood1360[0m  [01;34mhollywood2028[0m  [01;34mhollywood2705[0m  [01;34mitwiki[0m              [01;34msoclivejournal0736[0m
+[01;34menwiki0285[0m  [01;34menwiki0903[0m  [01;34mhollywood0200[0m  [01;34mhollywood0838[0m  [01;34mhollywood1465[0m  [01;34mhollywood2141[0m  [01;34mhollywood2817[0m  [01;34morkut[0m               [01;34msoclivejournal0836[0m
+[01;34menwiki0383[0m  [01;34menwiki1009[0m  [01;34mhollywood0306[0m  [01;34mhollywood0938[0m  [01;34mhollywood1578[0m  [01;34mhollywood2254[0m  [01;34mhollywood2930[0m  [01;34msoclivejournal0356[0m  [01;34msoclivejournal0936[0m
+[01;34menwiki0482[0m  [01;34menwiki1115[0m  [01;34mhollywood0411[0m  [01;34mhollywood1043[0m  [01;34mhollywood1692[0m  [01;34mhollywood2367[0m  [01;34mhollywood3043[0m  [01;34msoclivejournal0447[0m  [01;34msoclivejournal1037[0m
+[01;34menwiki0585[0m  [01;34menwiki1222[0m  [01;34mhollywood0517[0m  [01;34mhollywood1149[0m  [01;34mhollywood1803[0m  [01;34mhollywood2479[0m  [01;34mhollywood3156[0m  [01;34msoclivejournal0539[0m  [01;34msocpokec[0m
+[01;34menwiki0691[0m  [01;34menwiki1329[0m  [01;34mhollywood0622[0m  [01;34mhollywood1254[0m  [01;34mhollywood1916[0m  [01;34mhollywood2592[0m  [01;34mhollywood3269[0m  [01;34msoclivejournal0637[0m  [01;34mwebgoogle[0m
+hadoopnew@ylab5:~/output/simple_coloring$ 
+real	12m44.994s
+user	3m24.641s
+sys	0m43.355s
+/home/hadoopnew/output/runProgramNnodes.sh: line 12: 18353 Killed                  /home/hadoopnew/output/runStatus.sh status.txt
+
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ ps -af
+UID        PID  PPID  C STIME TTY          TIME CMD
+1000     15635  3512  0 22:41 pts/2    00:00:00 /bin/bash
+1000     15636 15635  0 22:41 pts/2    00:00:00 /bin/bash
+1000     23664  6651  0 20:10 pts/1    00:00:00 screen -r
+1000     29329 15636  0 23:35 pts/2    00:00:00 /bin/bash
+1000     29331 29329  0 23:35 pts/2    00:00:00 /bin/bash
+1000     29332 29329  0 23:35 pts/2    00:00:00 /bin/bash
+1000     29333 29332  0 23:35 pts/2    00:00:00 mpiexec -n 4 --hostfile /home/hadoopnew/machines /home/hadoopnew/PowerGraph-master/release/toolkit
+1000     29397 29333 99 23:35 pts/2    00:02:18 /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_coun
+1000     30574 29331  0 23:36 pts/2    00:00:00 /home/hadoopnew/output/cpu_mem_client
+1000     30589  3512  0 23:36 pts/2    00:00:00 ps -af
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ 
+hadoopnew@ylab5:~/output/simple_coloring$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          3967       3948         19          0          0          4
+-/+ buffers/cache:       3942         24
+Swap:         7730       1038       6692
+hadoopnew@ylab5:~/output/simple_coloring$ free -,[Km
+             total       used       free     shared    buffers     cached
+Mem:          3967       3946         20          0          0          5
+-/+ buffers/cache:       3940         27
+Swap:         7730       1267       6463
+hadoopnew@ylab5:~/output/simple_coloring$ 
