@@ -1,0 +1,104 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 4 instances created.
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:655): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3191): Use random ingress
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/loading time  21.6376
+finalize time  20.06
+Number of vertices: 3471801
+Number of edges:    59168748
+Updates: 0
+K=0:  #V = 3471801   #E = 59168748
+Updates: 0
+K=1:  #V = 3471801   #E = 59168748
+Updates: 762393
+K=2:  #V = 2929111   #E = 58626116
+Updates: 697484
+K=3:  #V = 2559998   #E = 57888936
+Updates: 600046
+K=4:  #V = 2315675   #E = 57157737
+Updates: 523222
+K=5:  #V = 2145206   #E = 56477679
+Updates: 471274
+K=6:  #V = 2016614   #E = 55836783
+Updates: 440793
+K=7:  #V = 1910980   #E = 55205524
+Updates: 416387
+K=8:  #V = 1821201   #E = 54580212
+Updates: 410591
+K=9:  #V = 1739339   #E = 53929228
+Updates: 404973
+K=10:  #V = 1663373   #E = 53249853
+Updates: 406112
+K=11:  #V = 1590609   #E = 52527047
+ki/enwikiah
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiag
+[0mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiaf
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:546): Graph info: 
+	 nverts: 3471801
+	 nedges: 59168748
+	 nreplicas: 11304108
+	 replication factor: 3.25598
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 0 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 0 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 541817
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 4 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 366377
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 5 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 240913
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 5 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 166857
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 8 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 124816
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 6 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 101429
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 9 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 85113
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 9 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 76428
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 27 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 70090
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 9 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 66173
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 23 iterations completed.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 61953
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m

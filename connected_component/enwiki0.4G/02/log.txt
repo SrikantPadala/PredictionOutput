@@ -1,0 +1,1655 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 2 instances created.
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hLoading graph in format: tsv
+loading time  21.0976
+Finalization in 17.98
+Updates: 11373543
+total time  68.4176
+1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:655): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3191): Use random ingress
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki1/enwikiaa
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki1/enwikiac
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki1/enwikiab
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki1/enwikiae
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1759295 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1788041 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1784851 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1783427 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3518536 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3566395 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3566876 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3568413 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5280874 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5317000 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5348946 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5349437 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7040509 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7106591 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7115024 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7126016 Lines read
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Post Flush
+	 Heap: 354 MB
+	 Allocated: 350.663 MB
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished populating local graph.
+	 Heap: 772.305 MB
+	 Allocated: 357.894 MB
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 5.93794 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 2222279
+[0m	 nedges: 14793860
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished finalizing local graph.
+	 Heap: 1466.5 MB
+	 Allocated: 658.612 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished adding vertex data
+	 Heap: 1466.5 MB
+	 Allocated: 658.519 MB
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 6.02755 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 2221081
+[0m	 nedges: 14789269
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finihsed allocating lvid2record
+	 Heap: 1466.5 MB
+	 Allocated: 760.253 MB
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+DEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished synchronizing vertex (meta)data
+	 Heap: 1466.5 MB
+	 Allocated: 979.442 MB
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:546): Graph info: 
+	 nverts: 2777614
+	 nedges: 29583129
+	 nreplicas: 4999973
+	 replication factor: 1.8001
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 1466.5 MB
+	 Allocated: 864.46 MB
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 1466.2 MB
+	 Allocated: 864.113 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 1466.5 MB
+	 Allocated: 963.389 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 1466.2 MB
+	 Allocated: 963.097 MB
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 2777614
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 2765073
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+DEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 2
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+DEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0m[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 2765659
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 3
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 2451751
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+DEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0m[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 7
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+DEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0m[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+DEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0m[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 7 iterations completed.
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1235): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1262): AB barrier waiting for -1
+[0mINFO:     synchronous_engine.hpp(start:1441): Compute Balance: 39.0278 43.1358 
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(all_reduce2:1274): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release -1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1098): AB barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1112): Sending AB release to 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1122): AB barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(__ab_parent_to_child_barrier_release:1023): AB Barrier Release 1
+[0mDEBUG:    dc_dist_object.hpp(all_gather:1132): barrier phase 2 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1433): barrier phase 1 complete
+[0mDEBUG:    dc_dist_object.hpp(barrier:1446): barrier waiting for 1
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mDEBUG:    dc_dist_object.hpp(__parent_to_child_barrier_release:1393): Barrier Release 1
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mDEBUG:    dc_dist_object.hpp(barrier:1454): barrier phase 2 complete
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 399167508
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 6373
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 399177823
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 405141998
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 6485
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 411000748
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 6577
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 411008695
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 404922906
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 6465
+[0m

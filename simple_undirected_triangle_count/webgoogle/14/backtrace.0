@@ -1,0 +1,25 @@
+Pointers
+------------
+0x5dda81
+0x627472
+0x5dff62
+0x7ffb20facb50
+0x7ffb1e2f730d
+Raw
+------------
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_count(_Z18__print_back_tracev+0x81) [0x5dda81]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_count(_ZN8graphlab7dc_impl11dc_tcp_comm14accept_handlerEv+0xbc2) [0x627472]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_undirected_triangle_count(_ZN8graphlab6thread6invokeEPv+0x32) [0x5dff62]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50) [0x7ffb20facb50]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7ffb1e2f730d]
+
+Demangled
+------------
+__print_back_trace()
+graphlab::dc_impl::dc_tcp_comm::accept_handler()
+graphlab::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)
+-------------------------------------------------------
+
+

@@ -1,0 +1,298 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 8 instances created.
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:655): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.Loading graph in format: tsv
+loading time  17.8516
+finalize time  5.32849
+#vertices: 1695318 #edges:22898580
+Updates: 6737837
+Finished Running engine in 14.1 seconds.
+total time  37.9714
+Total rank: 282815
+Total rank: 282815
+Total rank: 282815
+Total rank: 282815
+Total rank: 282815
+Total rank: 282815
+Total rank: 282815
+Total rank: 282815
+Totalpr = 282815
+Totalpr = 282815
+Totalpr = 282815
+Totalpr = 282815
+Totalpr = 282815
+Totalpr = 282815
+Totalpr = 282815
+Totalpr = 282815
+d/hollywoodsac
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2152731 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2201502 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2174526 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4306762 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4351566 Lines read
+INFO:     distributed_graph.hpp(load_from_stream:3250): 4393902 Lines read
+[0m[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6462512 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6584241 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6528437 Lines read
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Post Flush
+	 Heap: 78 MB
+	 Allocated: 76.0262 MB
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished populating local graph.
+	 Heap: 218.234 MB
+	 Allocated: 108.145 MB
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     distributed_ingress_base.hpp(finalize:304): Graph Finalize: finalizing local graph.
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.937705 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 917848
+[0m	 nedges: 2862912
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished finalizing local graph.
+	 Heap: 305.609 MB
+	 Allocated: 181.231 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished adding vertex data
+	 Heap: 305.609 MB
+	 Allocated: 181.106 MB
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.933651 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 919062
+[0m	 nedges: 2860604
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.957399 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 918491
+[0m	 nedges: 2861610
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.959 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 919289
+[0m	 nedges: 2862012
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.941874 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 919100
+[0m	 nedges: 2863472
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.961773 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 918335
+[0m	 nedges: 2864157
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 0.953455 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 918334
+[0m	 nedges: 2861868
+[0mINFO:     dynamic_local_graph.hpp(finalize:339): Graph finalized in 1.0021 secs
+[0mINFO:     distributed_ingress_base.hpp(finalize:307): Local graph info: 
+[0m	 nverts: 919089
+[0m	 nedges: 2861945
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finihsed allocating lvid2record
+	 Heap: 305.609 MB
+	 Allocated: 223.129 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Finished synchronizing vertex (meta)data
+	 Heap: 436.125 MB
+	 Allocated: 314.17 MB
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0mINFO:     distributed_ingress_base.hpp(exchange_global_info:521): Graph Finalize: exchange global statistics 
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:546): Graph info: 
+	 nverts: 1695318
+	 nedges: 22898580
+	 nreplicas: 8126158
+	 replication factor: 4.79329
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0mINFO:     omni_engine.hpp(omni_engine:191): Using the Synchronous engine.
+[0m[1;32mINFO:     synchronous_engine.hpp(synchronous_engine:1034): Engine Option: use_cache = 0
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     distributed_ingress_base.hpp(finalize:244): Skipping Graph Finalization because no changes happened...
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 436.125 MB
+	 Allocated: 266.401 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 456.969 MB
+	 Allocated: 266.168 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 457.008 MB
+	 Allocated: 266.184 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 458.07 MB
+	 Allocated: 266.28 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 457.094 MB
+	 Allocated: 266.239 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 435.195 MB
+	 Allocated: 266.239 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 436.281 MB
+	 Allocated: 266.318 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: Before Engine Initialization
+	 Heap: 457.078 MB
+	 Allocated: 266.297 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 456.969 MB
+	 Allocated: 290.887 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 457.094 MB
+	 Allocated: 290.95 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 457.078 MB
+	 Allocated: 291.039 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 457.008 MB
+	 Allocated: 290.926 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 458.07 MB
+	 Allocated: 291.022 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 436.125 MB
+	 Allocated: 290.861 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 435.195 MB
+	 Allocated: 290.989 MB
+[0mINFO:     memory_info.cpp(log_usage:90): Memory Info: After Engine Initialization
+	 Heap: 436.281 MB
+	 Allocated: 291.037 MB
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 1695318
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 3
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 1260789
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 12
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 3
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 26 iterations completed.
+[0mINFO:     synchronous_engine.hpp(start:1441): Compute Balance: 8.65943 8.03888 7.85233 8.71185 8.20944 8.70129 8.7996 8.40564 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc.cpp(~distributed_control:166): Shutting down distributed control 
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(close:247): Closing listening socket
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+INFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0m[0mINFO:     dc_tcp_comm.cpp(send_loop:653): Send loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 231514430
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 4248
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 231085239
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 4324
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 231114100
+INFO:     dc.cpp(~distributed_control:198): Bytes Sent: 306920132
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 5489
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 231543291
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 258246550
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4642
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 307132769
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 5462
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 307161630
+[0m[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 258084674
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4706
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 231212942
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 4332
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 306948993
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 257957596
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4678
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 258044308
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4637
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 231241803
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 258006222
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4733
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 231595441
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 4331
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 231624302
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 258202174
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4676
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 231670350
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 4335
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 231699211
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 258264741
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 4732
+[0mINFO:     dc_tcp_comm.cpp(close:267): Closing outgoing sockets
+[0mINFO:     dc_tcp_comm.cpp(receive_loop:594): Receive loop Stopped
+[0mINFO:     dc_tcp_comm.cpp(close:285): Closing incoming sockets
+[0mINFO:     dc.cpp(~distributed_control:198): Bytes Sent: 293865181
+[0mINFO:     dc.cpp(~distributed_control:199): Calls Sent: 5346
+[0mINFO:     dc.cpp(~distributed_control:200): Network Sent: 294587784
+[0mINFO:     dc.cpp(~distributed_control:201): Bytes Received: 257892323
+[0mINFO:     dc.cpp(~distributed_control:202): Calls Received: 5063
+[0m

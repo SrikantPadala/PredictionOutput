@@ -1,0 +1,29 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 14 instances created.
+[0m[1;32mINFO:     metrics_server.cpp(launch_metric_server:219): Metrics server now listening on http://ylab3:8090
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:655): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3191): Use random ingress
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/webgoogle/web-Google.txt
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:546): Graph info: 
+	 nverts: 875713
+	 nedges: 5105039
+	 nreplicas: 5175544
+	 replication factor: 5.91009
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 875713
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 1 iterations completed.
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0m[1;32mINFO:     synchronous_engine.hpp(Updates: 875713
+total time  23.8202
+28198954 In triangles
+28198954 Out triangles
+28198954 Through triangles
+11669313 Cycle triangles
+Metrics server stopping.
+INFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 875713
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 1 iterations completed.
+[0m

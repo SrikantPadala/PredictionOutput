@@ -1,0 +1,27 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 13 instances created.
+[0m[1;32mINFO:     metrics_server.cpp(launch_metric_server:219): Metrics server now listening on http://ylab3:8090
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:655): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3191): Use random ingress
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/socpokec/socpokecaa
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/socpokec/socpokecab
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/socpokec/socpokecac
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2199): Loading graph from file: /home/hadoopnew/GraphDatabases/socpokec/socpokecad
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:546): Graph info: 
+	 nverts: 1632803
+	 nedges: 30622564
+	 nreplicas: 13436199
+	 replifinalize time  8.03021
+Numb[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing GraUpdates: 1632803
+Counted in 19.5408 seconds
+total time  46.0324
+50391844 Triangles
+Metrics server stopping.
+conds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 1632803
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 1
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 1 iterations completed.
+[0m

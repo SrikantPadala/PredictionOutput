@@ -1,0 +1,34 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 2 instances created.
+[0m[1;32mINFO:     metrics_server.cpp(launch_metric_server:219): Metrics server now listening on http://ylab5:8090
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:646): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3178): Uloading time  58.6592
+finalize time  5.47085
+Number of vertices: 1356708
+Number of edges:    6869277
+Counting Triangles...
+Updates: 1356708
+Counted in 4.48804 seconds
+total time  68.6182
+4307163 Triangles
+Metrics server stopping.
+): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsag
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsab
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsaf
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsai
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsah
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsac
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsad
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsae
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:202): Finalizing Graph...
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:549): Graph info: 
+	 nverts: 1356708
+	 nedges: 6869277
+	 nreplicas: 2435694
+	 replication factor: 1.7953
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:202): Finalizing Graph...
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 1356708
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 1 iterations completed.
+[0m

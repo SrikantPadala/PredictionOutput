@@ -1,0 +1,22 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 9 instances created.
+[0m[1;32mINFO:     metrics_server.cpp(launch_metric_server:219): Metrics server now listening on http://ylab5:8090
+[0m[ylab5:23770] *** Process received signal ***
+[ylab5:23770] Signal: Segmentation fault (11)
+[ylab5:23770] Signal code: Address not mapped (1)
+[ylab5:23770] Failing at address: 0x4572656dc7
+[ylab5:23770] [ 0] /lib/x86_64-linux-gnu/libpthread.so.0(+0xf0a0) [0x7fdbb70ca0a0]
+[ylab5:23770] [ 1] /lib/x86_64-linux-gnu/libpthread.so.0(pthread_mutex_lock+0x4) [0x7fdbb70c4194]
+[ylab5:23770] [ 2] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZNK8graphlab5mutex4lockEv+0x9) [0x4d5d39]
+[ylab5:23770] [ 3] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab14dc_dist_objectINS_17buffered_exchangeISt4pairIm16vertex_data_typeEEEE33__child_to_parent_barrier_triggerEt+0x2c) [0x4dc14c]
+[ylab5:23770] [ 4] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab7dc_impl29OBJECT_NONINTRUSIVE_DISPATCH1INS_19distributed_controlENS_14dc_dist_objectINS_17buffered_exchangeISt4pairIm16vertex_data_typeEEEEEMS9_FvtEtEEvRT_thPKcm+0xa8) [0x539178]
+[ylab5:23770] [ 5] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab19distributed_control18exec_function_callEthPKcm+0x73) [0x59e273]
+[ylab5:23770] [ 6] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab19distributed_control19process_fcall_blockERNS0_16fcallqueue_entryE+0x105) [0x59e465]
+[ylab5:23770] [ 7] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab19distributed_control21handle_incoming_callsEmm+0x1e5) [0x59ec35]
+[ylab5:23770] [ 8] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab19distributed_control17fcallhandler_loopEm+0x2f3) [0x59e943]
+[ylab5:23770] [ 9] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab11fiber_group6invokeERKN5boost8functionIFvvEEEPS0_+0x3a) [0x594aca]
+[ylab5:23770] [10] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(_ZN8graphlab13fiber_control10trampolineEl+0x6d) [0x59149d]
+[ylab5:23770] [11] /home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/undirected_triangle_count1(make_fcontext+0x2e) [0x60bb4e]
+[ylab5:23770] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 23770 on node ylab5 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,31 @@
+Pointers
+------------
+0x576a80
+0x5d1b3a
+0x5d516a
+0x578e23
+0x57752a
+0x7f6cf0bc5b50
+0x7f6cedf1030d
+Raw
+------------
+/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_Z18__print_back_tracev+0x80) [0x576a80]
+/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base() [0x5d1b3a]
+/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_ZN8graphlab7dc_impl11dc_tcp_comm14accept_handlerEv+0x68a) [0x5d516a]
+/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_ZNK5boost9function0IvEclEv+0x33) [0x578e23]
+/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base(_ZN8graphlab6thread6invokeEPv+0x1a) [0x57752a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50) [0x7f6cf0bc5b50]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f6cedf1030d]
+
+Demangled
+------------
+__print_back_trace()
+/home/hadoopnew/graphlab-master/release/toolkits/graph_analytics/pagerank_base()
+graphlab::dc_impl::dc_tcp_comm::accept_handler()
+boost::function0<void>::operator()() const
+graphlab::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)
+-------------------------------------------------------
+
+

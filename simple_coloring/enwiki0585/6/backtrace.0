@@ -1,0 +1,40 @@
+Pointers
+------------
+0x584031
+0x5ddeda
+0x5de36e
+0x61ba34
+0x5dd173
+0x58617c
+0x586b7d
+0x586512
+0x7ff9bf7b3b50
+0x7ff9bcafe30d
+Raw
+------------
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_Z18__print_back_tracev+0x81) [0x584031]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN8graphlab7dc_impl11dc_tcp_comm15send_till_blockERNS1_11socket_infoE+0x23a) [0x5ddeda]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN8graphlab7dc_impl13on_send_eventEisPv+0x33e) [0x5de36e]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(gl_event_base_loop+0x3d4) [0x61ba34]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN8graphlab7dc_impl11dc_tcp_comm9send_loopEP10event_base+0x23) [0x5dd173]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN8graphlab12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x3c) [0x58617c]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN5boost6detail8function26void_function_obj_invoker0INS_3_bi6bind_tIvPFvNS_8functionIFvvEEEPN8graphlab12thread_groupEENS3_5list2INS3_5valueIS7_EENSE_ISA_EEEEEEvE6invokeERNS1_15function_bufferE+0x5d) [0x586b7d]
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN8graphlab6thread6invokeEPv+0x32) [0x586512]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50) [0x7ff9bf7b3b50]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7ff9bcafe30d]
+
+Demangled
+------------
+__print_back_trace()
+graphlab::dc_impl::dc_tcp_comm::send_till_block(graphlab::dc_impl::dc_tcp_comm::socket_info&)
+graphlab::dc_impl::on_send_event(int, short, void*)
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(gl_event_base_loop+0x3d4)
+graphlab::dc_impl::dc_tcp_comm::send_loop(event_base*)
+graphlab::thread_group::invoke(boost::function<void ()>, graphlab::thread_group*)
+/home/hadoopnew/PowerGraph-master/release/toolkits/graph_analytics/simple_coloring(_ZN5boost6detail8function26void_function_obj
+graphlab::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x6b50)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)
+-------------------------------------------------------
+
+

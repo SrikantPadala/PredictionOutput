@@ -1,0 +1,29 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 1 instances created.
+[0m[1;32mINFO:     metrics_server.cpp(launch_metric_server:219): Metrics server now listening on http://ylab5:8090
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:646): Graph Option: ingress = ranloading time  42.6533
+finalize time  3.46327
+Number of vertices: 964406
+Number of edges:    3052758
+Counting Triangles...
+Updates: 964406
+Counted in 2.32156 seconds
+total time  48.4382
+779391 Triangles
+Metrics server stopping.
+ollywoodsaa
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsac
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsab
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/hollywood/hollywoodsad
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:202): Finalizing Graph...
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:549): Graph info: 
+	 nverts: 964406
+	 nedges: 3052758
+	 nreplicas: 964406
+	 replication factor: 1
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:202): Finalizing Graph...
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 964406
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 1 iterations completed.
+[0m
