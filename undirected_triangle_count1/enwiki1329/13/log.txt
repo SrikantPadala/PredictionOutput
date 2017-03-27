@@ -1,0 +1,38 @@
+[1;32mINFO:     dc.cpp(init:573): Cluster of 13 instances created.
+[0m[1;32mINFO:     metrics_server.cpp(launch_metric_server:219): Metrics server now listening on http://ylab5:8090
+[0m[1;32mINFO:     distributed_graph.hpp(set_options:646): Graph Option: ingress = random
+[0m[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3178): Use random ingress
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiaa
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiab
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiac
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiag
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiad
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /hloading time  16.5194
+finalize time  6.59103
+Number of vertices: 3163952
+Number of edges:    9599935
+Counting Triangles...
+Updates: 3163952
+Counted in 5.32744 seconds
+total time  28.4381
+475425 Triangles
+Metrics server stopping.
+oad_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiam
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiai
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiae
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiaj
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikiak
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_posixfs:2190): Loading graph from file: /home/hadoopnew/GraphDatabases/enwiki/enwikial
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:202): Finalizing Graph...
+[0m[1;32mINFO:     distributed_ingress_base.hpp(exchange_global_info:549): Graph info: 
+	 nverts: 3163952
+	 nedges: 9599935
+	 nreplicas: 13057854
+	 replication factor: 4.12707
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:202): Finalizing Graph...
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1299): Iteration counter will only output every 5 seconds.
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1314): 0: Starting iteration: 0
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1363): 	Active vertices: 3163952
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1412): 	 Running Aggregators
+[0m[1;32mINFO:     synchronous_engine.hpp(start:1424): 1 iterations completed.
+[0m
